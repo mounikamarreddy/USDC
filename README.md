@@ -11,7 +11,7 @@ pip install data -> just example
 This folder contains the USDC stance and dogmatism datasets. Stance is at post level and given for each comment of the user. Dogmatism is at user level and given for entire user conversation.
 There are two sub folders in this folder. The subfolder "USDC Stance Data" contains the "USDC_Stance.pkl" file that contains the information related to the stance classification data and corresponding LLM annotations, the training_stance.pkl file contains the training data and testing_stance.pkl file contains the testing data for Stance classification. 
 
-** The columns in USDC_Stance.pkl file are as follows:**
+**The columns in USDC_Stance.pkl file are as follows:**
 - Submission_id 
   2. Subreddit ->
   3. title ->
