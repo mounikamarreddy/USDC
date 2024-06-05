@@ -7,6 +7,10 @@ Stance is at post level and given for each comment of the user.
 Dogmatism is at user level and given for entire user conversation.
 There are two sub folders in this folder. The first sub folder "USDC Stance Data" contains the information related to the stance classification data, corresponding LLM annotations and the training and testing data for Stance classification. The "USDC Dogmatism Data" sub folder contains the information related to the dogmatism data, corresponding LLM annotations and the training and testing data for Dogmatism classification.
 
+``` bash
+pip install data -> just example
+```
+
 For stance Detection, the columns are as follows:
   1. Submission_id ->
   2. Subreddit ->
