@@ -16,7 +16,7 @@ There are two sub folders in this folder. The subfolder "USDC Stance Data" conta
 - **Subreddit** is the topic name of a Reddit conversation (Eg: Abortion, Guncontrol and so on) 
 - **title** is the first post in a Reddit conversation and called as submission post title
 - **content** is the description of title, also called as submission body or content
-- **reddit_link** ->
+- **reddit_link** is the link to the entire conversation
 - **comments** -> Nested replies to the submission
 - **author_key** -> unique author identification (tells about author1 or author 2)
 - **stance_id** -> unique identifier of comment
