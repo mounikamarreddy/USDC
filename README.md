@@ -8,31 +8,31 @@ Dogmatism is at user level and given for entire user conversation.
 There are two sub folders in this folder. The first sub folder "USDC Stance Data" contains the information related to the stance classification data, corresponding LLM annotations and the training and testing data for Stance classification. The "USDC Dogmatism Data" sub folder contains the information related to the dogmatism data, corresponding LLM annotations and the training and testing data for Dogmatism classification.
 
 For stance Detection, the columns are as follows:
-Submission_id
-Subreddit ->
-title
-content
-reddit_link -
-'Comments' -> Nested replies to the submission
-Author_key -> unique author identification (tells about author1 or author 2)
-Stance_id -> unique identifier of comment
-Gpt41106preview_zero_shot_stance_label 
-gpt41106preview_zero_shot_stance_reason
-gpt41106preview_one_shot_stance_label
-gpt41106preview_one_shot_stance_reason
-gpt41106preview_few_shot_stance_label
-gpt41106preview_few_shot_stance_reason
-mistrallargelatest_zero_shot_stance_label
-mistrallargelatest_zero_shot_stance_reason
-mistrallargelatest_one_shot_stance_label
-mistrallargelatest_one_shot_stance_reason
-mistrallargelatest_few_shot_stance_label
-mistrallargelatest_few_shot_stance_reason
-Author_key_name -> corresponding author name of the author key
-Stance_id_timestamp -> timestamp of the comment/submission
-Stance_id_comment -> textual content of the stance id (per message)
-Author_names -> Meta data of authors information for a submission id
-Author_id_details -> Metadata of authors comments count and ids of the commen
+1. Submission_id
+2. Subreddit ->
+3. title
+4. content
+5. reddit_link -
+6. comments -> Nested replies to the submission
+7. author_key -> unique author identification (tells about author1 or author 2)
+8. stance_id -> unique identifier of comment
+9. gpt41106preview_zero_shot_stance_label 
+10. gpt41106preview_zero_shot_stance_reason
+11. gpt41106preview_one_shot_stance_label
+12. gpt41106preview_one_shot_stance_reason
+13. gpt41106preview_few_shot_stance_label
+14. gpt41106preview_few_shot_stance_reason
+15. mistrallargelatest_zero_shot_stance_label
+16. mistrallargelatest_zero_shot_stance_reason
+17. mistrallargelatest_one_shot_stance_label
+18. mistrallargelatest_one_shot_stance_reason
+19. mistrallargelatest_few_shot_stance_label
+20. mistrallargelatest_few_shot_stance_reason
+21. author_key_name -> corresponding author name of the author key
+22. stance_id_timestamp -> timestamp of the comment/submission
+23. stance_id_comment -> textual content of the stance id (per message)
+24. author_names -> Meta data of authors information for a submission id
+25. author_id_details -> Metadata of authors comments count and ids of the commen
 
 Majority_vote_stance_label -> Final gold label for stance classification
 
