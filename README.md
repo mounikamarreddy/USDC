@@ -33,7 +33,6 @@ For stance Detection, the columns are as follows:
 23. stance_id_comment -> textual content of the stance id (per message)
 24. author_names -> Meta data of authors information for a submission id
 25. author_id_details -> Metadata of authors comments count and ids of the commen
-
-Majority_vote_stance_label -> Final gold label for stance classification
+26. majority_vote_stance_label -> Final gold label for stance classification
 
 
