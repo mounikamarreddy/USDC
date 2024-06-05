@@ -8,18 +8,18 @@ Dogmatism is at user level and given for entire user conversation.
 There are two sub folders in this folder. The first sub folder "USDC Stance Data" contains the information related to the stance classification data, corresponding LLM annotations and the training and testing data for Stance classification. The "USDC Dogmatism Data" sub folder contains the information related to the dogmatism data, corresponding LLM annotations and the training and testing data for Dogmatism classification.
 
 For stance Detection, the columns are as follows:
-1. Submission_id
-2. Subreddit ->
-3. title
-4. content
-5. reddit_link -
-6. comments -> Nested replies to the submission
-7. author_key -> unique author identification (tells about author1 or author 2)
-8. stance_id -> unique identifier of comment
-9. gpt41106preview_zero_shot_stance_label 
-10. gpt41106preview_zero_shot_stance_reason
-11. gpt41106preview_one_shot_stance_label
-12. gpt41106preview_one_shot_stance_reason
+  1. Submission_id ->
+  2. Subreddit ->
+  3. title ->
+  4. content ->
+  5. reddit_link ->
+  6. comments -> Nested replies to the submission
+  7. author_key -> unique author identification (tells about author1 or author 2)
+  8. stance_id -> unique identifier of comment
+9. gpt41106preview_zero_shot_stance_label -> Stance annotations generated using GPT-4 zero shot prompting
+10. gpt41106preview_zero_shot_stance_reason -> Reasons for selecting the stance label generated using GPT-4 zero shot prompting
+11. gpt41106preview_one_shot_stance_label ->
+12. gpt41106preview_one_shot_stance_reason ->
 13. gpt41106preview_few_shot_stance_label
 14. gpt41106preview_few_shot_stance_reason
 15. mistrallargelatest_zero_shot_stance_label
