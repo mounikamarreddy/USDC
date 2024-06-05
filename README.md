@@ -1,7 +1,7 @@
 # USDC
 This repository contains the USDC dataset, and the entire code of **"USDC: A Dataset of User Stance and Dogmatism in Long Conversations"** paper.
 
-# USDC Dataset Folder
+## USDC Dataset Folder
 This folder contains the USDC stance and dogmatism datasets.
 Stance is at post level and given for each comment of the user.
 Dogmatism is at user level and given for entire user conversation.
