@@ -7,13 +7,12 @@ pip install data -> just example
 ```
 
 
-## USDC Dataset Folder
+## USDC Dataset Folder Details
 This folder contains the USDC stance and dogmatism datasets. Stance is at post level and given for each comment of the user. Dogmatism is at user level and given for entire user conversation.
-There are two sub folders in this folder. The first sub folder "USDC Stance Data" contains the information related to the stance classification data, corresponding LLM annotations and the training and testing data for Stance classification. The "USDC Dogmatism Data" sub folder contains the information related to the dogmatism data, corresponding LLM annotations and the training and testing data for Dogmatism classification.
+There are two sub folders in this folder. The subfolder "USDC Stance Data" contains the "USDC_Stance.pkl" file that contains the information related to the stance classification data and corresponding LLM annotations, the training_stance.pkl file contains the training data and testing_stance.pkl file contains the testing data for Stance classification. 
 
-
-For stance Detection, the columns are as follows:
-  1. Submission_id ->
+** The columns in USDC_Stance.pkl file are as follows:**
+- Submission_id 
   2. Subreddit ->
   3. title ->
   4. content ->
@@ -35,9 +34,11 @@ For stance Detection, the columns are as follows:
 20. mistrallargelatest_few_shot_stance_reason
 21. author_key_name -> corresponding author name of the author key
 22. stance_id_timestamp -> timestamp of the comment/submission
-23. stance_id_comment -> textual content of the stance id (per message)
-24. author_names -> Meta data of authors information for a submission id
-25. author_id_details -> Metadata of authors comments count and ids of the commen
-26. majority_vote_stance_label -> Final gold label for stance classification
+24. stance_id_comment -> textual content of the stance id (per message)
+25. author_names -> Meta data of authors information for a submission id
+26. author_id_details -> Metadata of authors comments count and ids of the commen
+27. majority_vote_stance_label -> Final gold label for stance classification
+
+The "USDC Dogmatism Data" sub folder contains the information related to the dogmatism data, corresponding LLM annotations and the training and testing data for Dogmatism classification.
 
 
