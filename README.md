@@ -63,5 +63,18 @@ The "USDC Dogmatism Data" sub folder contains the information related to the dog
 - **mistrallargelatest_few_shot_dogmatism_reason** contains the reasons/justifications for selecting the Dogmatism label and is generated using Mistral Large few shot prompting
 - **majority_vote_dogmatism_label** contains final gold label that we selected using majority voting for Dogmatism classification
 
+## SLMs Finetuning Code
+The folder "SLMs Finetuning Code" contains the code notebooks related to three pretrained small language models (LLaMA-2-7B, LLaMA-3-8B, Falcon-7B) and four instruction-tuned small language models (LLaMA-2-chat-7B, LLaMA-3-8B-instruct, Vicuna-7B-v.1.5, and Falcon-7B-instruct).
+
+## SLMs Instruction-tuning Code
+The folder "SLMs Instruction-tuning Code" contains the code notebooks related to three pretrained small language models (LLaMA-2-7B, LLaMA-3-8B, Falcon-7B) and four instruction-tuned small language models (LLaMA-2-chat-7B, LLaMA-3-8B-instruct, Vicuna-7B-v.1.5, and Falcon-7B-instruct).
+
+## LLM Annotations Code
+The folder "LLM Annotations Code" contains the code notebooks related to Mistral Large zero-shot, Mistral Large one-shot, Mistral Large few-shot, GPT-4 zero-shot, GPT-4 one-shot, GPT-4 few-shot. Alos, the system prompt of zero-shot, one-shot, few-shot.
+
+## Human Survey
+The folder "Human Survey" contains the information related to the human survey.
+
+
 
 
