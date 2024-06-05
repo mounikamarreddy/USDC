@@ -17,27 +17,27 @@ There are two sub folders in this folder. The subfolder "USDC Stance Data" conta
 - **title** is the first post in a Reddit conversation and called as submission post title
 - **content** is the description of title, also called as submission body or content
 - **reddit_link** is the link to the entire conversation
-- **comments** -> Nested replies to the submission
-- **author_key** -> unique author identification (tells about author1 or author 2)
-- **stance_id** -> unique identifier of comment
-- **gpt41106preview_zero_shot_stance_label** -> Stance annotations generated using GPT-4 zero shot prompting
-- **gpt41106preview_zero_shot_stance_reason** -> Reasons for selecting the stance label generated using GPT-4 zero shot prompting
-- **gpt41106preview_one_shot_stance_label** ->
-- **gpt41106preview_one_shot_stance_reason** ->
-- **gpt41106preview_few_shot_stance_label**
-- **gpt41106preview_few_shot_stance_reason**
-- **mistrallargelatest_zero_shot_stance_label**
-- **mistrallargelatest_zero_shot_stance_reason**
-- **mistrallargelatest_one_shot_stance_label**
-- **mistrallargelatest_one_shot_stance_reason**
-- **mistrallargelatest_few_shot_stance_label**
-- **mistrallargelatest_few_shot_stance_reason**
-- **author_key_name** -> corresponding author name of the author key
-- **stance_id_timestamp** -> timestamp of the comment/submission
-- **stance_id_comment** -> textual content of the stance id (per message)
-- **author_names** -> Meta data of authors information for a submission id
-- **author_id_details** -> Metadata of authors comments count and ids of the commen
-- **majority_vote_stance_label** -> Final gold label for stance classification
+- **comments** are the nested replies to the submission
+- **author_key** is the unique author identification (in USDC dataset, it tells about author1 or author 2)
+- **stance_id** is the unique identifier of the comment
+- **gpt41106preview_zero_shot_stance_label** contains the Stance annotations generated using GPT-4 zero shot prompting
+- **gpt41106preview_zero_shot_stance_reason** contains the reasons/justifications for selecting the stance label and is generated using GPT-4 zero shot prompting
+- **gpt41106preview_one_shot_stance_label** contains the Stance annotations generated using GPT-4 one shot prompting
+- **gpt41106preview_one_shot_stance_reason** contains the reasons/justifications for selecting the stance label and is generated using GPT-4 one shot prompting
+- **gpt41106preview_few_shot_stance_label** contains the Stance annotations generated using GPT-4 few shot prompting
+- **gpt41106preview_few_shot_stance_reason** contains the reasons/justifications for selecting the stance label and is generated using GPT-4 few shot prompting
+- **mistrallargelatest_zero_shot_stance_label** contains the Stance annotations generated using Mistral Large zero shot prompting
+- **mistrallargelatest_zero_shot_stance_reason** contains the reasons/justifications for selecting the stance label and is generated using Mistral Large zero shot prompting
+- **mistrallargelatest_one_shot_stance_label** contains the Stance annotations generated using Mistral Large one shot prompting
+- **mistrallargelatest_one_shot_stance_reason** contains the reasons/justifications for selecting the stance label and is generated using Mistral Large one shot prompting
+- **mistrallargelatest_few_shot_stance_label** contains the Stance annotations generated using Mistral Large few shot prompting
+- **mistrallargelatest_few_shot_stance_reason** contains the reasons/justifications for selecting the stance label and is generated using Mistral Large few shot prompting
+- **author_key_name** contains the corresponding author name of the author key
+- **stance_id_timestamp** contains timestamp of the comment/submission
+- **stance_id_comment** contains textual content of the stance id (per message)
+- **author_names** contains the meta data of selected two author names for a submission id
+- **author_id_details** -> contains the metadata of selected two author comments count and ids of the comments
+- **majority_vote_stance_label** contains final gold label taht we selected using majority voting for stance classification
 
 The "USDC Dogmatism Data" sub folder contains the information related to the dogmatism data, corresponding LLM annotations and the training and testing data for Dogmatism classification.
 
