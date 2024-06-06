@@ -229,7 +229,7 @@ eval_data = Dataset.from_pandas(X_eval)
 torch.cuda.empty_cache()
 
 from huggingface_hub import HfApi, HfFolder
-hf_token = "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"
+hf_token = ""
 
 # Save the token (this will save the token in the Hf folder, akin to using the CLI)
 HfFolder.save_token(hf_token)
