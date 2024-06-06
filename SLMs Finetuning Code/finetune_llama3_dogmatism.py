@@ -166,7 +166,7 @@ def evaluate(y_true, y_pred):
 # * Finally, the code sets the padding side to be "right", which means that the input sequences will be padded on the right side. This is crucial for correct padding direction (this is the way with Llama 2).
 
 from huggingface_hub import HfApi, HfFolder
-hf_token = "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"
+hf_token = ""
 
 # Save the token (this will save the token in the Hf folder, akin to using the CLI)
 HfFolder.save_token(hf_token)
