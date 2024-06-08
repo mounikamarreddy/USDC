@@ -4,9 +4,9 @@
 
 ![screenshot](capsoc.PNG)
 
-# To Download the Dataset
+# To install the required libraries
 ``` bash
-pip install data -> just example
+pip install -r requirements.txt
 ```
 
 
