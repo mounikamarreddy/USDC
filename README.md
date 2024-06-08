@@ -1,4 +1,4 @@
-# USDC: A Dataset of <ins>U</ins>ser Stance and Dogmatism in Long Conversations 
+# USDC: A Dataset of <ins>U</ins>ser <ins>S</ins>tance and <ins>D</ins>ogmatism in Long <ins>C</ins>onversations 
 This repository contains the USDC dataset, and the entire code of  paper.
 
 # To Download the Dataset
