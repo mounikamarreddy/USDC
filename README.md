@@ -1,5 +1,5 @@
-# USDC
-This repository contains the USDC dataset, and the entire code of **"USDC: A Dataset of User Stance and Dogmatism in Long Conversations"** paper.
+# USDC: A Dataset of \underline{U}ser Stance and Dogmatism in Long Conversations 
+This repository contains the USDC dataset, and the entire code of  paper.
 
 # To Download the Dataset
 ``` bash
