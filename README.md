@@ -1,5 +1,9 @@
 # USDC: A Dataset of <ins>U</ins>ser <ins>S</ins>tance and <ins>D</ins>ogmatism in Long <ins>C</ins>onversations 
 
+[USDC: A Dataset of <ins>U</ins>ser <ins>S</ins>tance and <ins>D</ins>ogmatism in Long <ins>C</ins>onversations], Arxiv-2024
+
+![screenshot](capsoc.PNG)
+
 # To Download the Dataset
 ``` bash
 pip install data -> just example
