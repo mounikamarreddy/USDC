@@ -1,0 +1,4 @@
+pip install openai
+pip install mistralai
+pip install transformers
+pip install pickle
